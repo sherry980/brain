@@ -1,0 +1,308 @@
+/*General*/
+
+.centeredText {
+	text-align: center;
+}
+
+.leftText {
+	text-align: left;
+}
+
+.rightText {
+  text-align: right;
+}
+
+* {
+  font-family: 'Cinzel', serif;
+}
+
+.makeBlue {
+  background-color: #23293F;
+  border-color: white;
+}
+
+.makeGray {
+  background-color: lightgray;
+}
+
+
+/*Main eat div*/
+#centerfold {
+	/*background-color: black;*/
+  background-image: url(http://www.porcelaingres.com/img/prodotti/collezioni/big/just_beige_light_beige_n.jpg);
+	padding: 40px;
+  padding-top: 115px;
+	height: auto;
+}
+
+#partialView {
+  border-radius: 0px 0px 50px 50px;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black; 
+}
+
+
+/*Eat Cooks View*/
+#map {
+    height:350px;
+    width:100%;
+    padding-bottom: 20px;
+}
+
+#mapContainer{
+  height:400px;
+  width:100%;
+}
+
+.infoWindowContent {
+    font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color:black;
+}
+
+
+/*Eat Menu View*/
+.dishButtons {
+  background-color: white;
+}
+
+
+#menuContainer {
+  font-size: 1vw;
+}
+
+#menuSubmitButton {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+
+.dishContainer input {
+  width: 100px;
+}
+
+.dishContainer {
+  text-align: center;
+}
+
+#dishPicFrame {
+  padding: 2%;
+  border: 1px solid lightgray; !important
+  border-radius: 4px;
+  max-height:100%;
+  max-width:100%;
+}
+
+.dishPics:hover {
+  padding: 2%;
+  border: 1px solid white;
+  background-color: lightgray;
+  border-radius: 4px;
+}
+
+.dishPics.active {
+  padding: 2%;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 4px;
+}
+
+/*Eat Checkout View*/
+
+#checkoutInfo {
+  border-bottom: 1px solid black;
+  padding-bottom: 7px;
+}
+
+.checkoutPics {
+  padding: 2%;
+  border: 1px solid lightgray; !important
+  border-radius: 4px;
+  max-height:100%;
+  max-width:100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.checkoutHeaders {
+  font-size: 1.2vw;
+  /*font-size: 20pt;*/
+  text-align: right;
+  padding-top: 2%;
+  vertical-align: middle;
+}
+
+.checkoutNames {
+  font-size: 1.2vw;
+  /*font-size: 16pt;*/
+  padding-top: 2%;
+}
+
+.checkoutResults {
+  font-size: 1.2vw;
+  /*font-size: 16pt;*/
+  padding-top: 2%;
+  text-align: center;
+}
+
+.checkoutRows {
+  height:20%;
+}
+
+#servings {
+  font-size: 1.2vw;
+  /*font-size: 20pt;*/
+  padding-top: 2%;
+  text-align: center;
+}
+
+#reserveButton {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+/*h2 {
+    margin-bottom:0;
+    margin-top: 0;
+}*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mainView {
+  border: 1px solid black;
+  clear: both;
+  padding: 5px;
+  padding-left: 5px;
+}
+
+.reserveButton {
+  height: 20%;
+}
+
+/*Eat User Profile View*/
+#userForm {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+}
+
+#userForm input {
+  width: 100%;
+}
+
+
+/*Eat Reservation*/
+#upcomingReservations {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#reserveHeaders {
+  text-decoration: underline;
+  font-size:20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#pastReservations {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.reservationButton {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.reservationBottom {
+  padding-top:20px;
+}
+
+.height {
+    min-height: 200px;
+}
+
+.icon {
+    font-size: 47px;
+    color: #5CB85C;
+}
+
+.iconbig {
+    font-size: 77px;
+    color: #5CB85C;
+}
+
+.table > tbody > tr > .emptyrow {
+    border-top: none;
+}
+
+.table > thead > tr > .emptyrow {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .highrow {
+    border-top: 3px solid;
+}
+
+#cookAvailability{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.modal-fit .modal-dialog {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 10px;
+}
+
+.modal-fit .modal-body {
+  max-height: calc(200vh - 400px);
+  overflow: auto;
+}
+
+.axis path, .axis line {
+                  fill: none;
+              stroke: #000;
+              shape-rendering: crispEdges;
+        }
+        path.line {
+            fill: none;
+            stroke-width: 1px;
+        }
+        .zoomOut {
+            fill: #66a;
+            cursor: pointer;
+        }
+        .zoomOutText {
+            pointer-events: none;
+            fill : #ccc;
+        }
+        .zoomOverlay {
+            pointer-events: all;
+            fill:none;
+        }
+        .band {
+            fill : none;
+            stroke-width: 1px;
+            stroke: red;
+        }
+        .guideline {
+          margin-right: 100px;
+        float: right;
+        }     
